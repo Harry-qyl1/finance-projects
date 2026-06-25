@@ -1,23 +1,26 @@
 # Finance Projects Portfolio
 
-First-year engineering student exploring finance, markets, valuation, and quantitative analysis.
+First-year Engineering student building practical skills in equity research, valuation and financial data analysis.
 
 ## Projects
 
-### Spotify Investment Analysis
-- Equity research style stock pitch
-- Subscriber growth analysis
-- Profitability assessment
-- Competitive positioning
+### 1. Spotify Investment Analysis
+- Equity research report
+- Industry and competitor analysis
+- Investment thesis
 
-### DCF Valuation Model
-Coming soon.
+### 2. Spotify Revenue Forecast
+- Revenue forecasting
+- Margin assumptions
+- Financial modelling in Excel
 
-### Python Finance Dashboard
-Coming soon.
+### 3. Spotify Stock Dashboard
+- Python
+- Pandas
+- Matplotlib
+- Yahoo Finance API
+- Moving averages and volatility
 
-### Quantitative Trading Strategy
-Coming soon.
-
-### Market Research Reports
-Coming soon.
+### 4. Spotify DCF Valuation
+- Discounted Cash Flow valuation
+- Terminal value calculation
