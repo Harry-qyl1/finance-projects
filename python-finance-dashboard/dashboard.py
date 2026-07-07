@@ -1,0 +1,18 @@
+import yfinance as yf
+import matplotlib.pyplot as plt
+spotify=yf.download('SPOT',start='2023-01-01')
+print(spotify.head())
+spotify['Close'].plot(figsize=(12,6))
+plt.title("Spotify Stock Price")
+plt.ylabel("Price ($)")
+plt.savefig("spotify_chart.png")
+spotify['MA50']=spotify['Close'].rolling(50).mean()
+spotify['MA200']=spotify['Close'].rolling(200).mean()
+plt.figure(figsize=(12,6))
+plt.plot(spotify['Close'], label='Close price')
+plt.plot(spotify['MA50'], label='50-day MA')
+plt.plot(spotify['MA200'], label='200-day MA')
+plt.legend()
+spotify['returns']=spotify['Close'].pct_change()
+print(spotify['returns'].mean())
+plt.savefig("spotify_moving_averages_chart.png")
