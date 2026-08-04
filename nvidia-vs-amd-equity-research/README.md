@@ -4,7 +4,7 @@
 
 This project compares **NVIDIA (NVDA)** and **Advanced Micro Devices (AMD)** to determine which company represents the stronger long-term investment opportunity.
 
-The analysis combines traditional equity research with quantitative analysis using Python. It includes financial statement analysis, discounted cash flow (DCF) valuation, historical stock performance, technical analysis and a moving average trading strategy.
+The analysis combines traditional equity research with quantitative analysis using Python. It includes financial statement analysis, discounted cash flow (DCF) valuation, historical stock performance, technical analysis and a moving-average trading strategy.
 
 The aim of the project is to demonstrate how qualitative research and quantitative analysis can be combined to support an investment recommendation.
 
@@ -129,21 +129,3 @@ Overall, the analysis supported **NVIDIA** as the stronger long-term investment 
 - Technical Analysis
 - Trading Strategy Backtesting
 
----
-
-## Future Improvements
-
-Potential extensions to this project include:
-
-- Monte Carlo DCF sensitivity analysis
-- Relative valuation using comparable companies
-- Three-statement financial modelling
-- Portfolio optimisation using Modern Portfolio Theory
-- Additional technical indicators (RSI, MACD and Bollinger Bands)
-- Performance comparison against the S&P 500 Semiconductor Index
-
----
-
-## Disclaimer
-
-This project was completed for educational purposes to develop financial modelling, equity research and Python programming skills. It should not be considered financial or investment advice.
