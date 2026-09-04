@@ -34,7 +34,7 @@ def run_strategy(stock, company):
     balance = 1000
     position = None
 
-    print(f'\n------ {company} ------')
+    print(f'{company} ')
 
     for index, row in stock.iterrows():
 
@@ -88,7 +88,7 @@ def run_strategy(stock, company):
             f'${final_price:.2f}'
         )
 
-    print(f'\nFinal Balance: ${balance:.2f}')
+    print(f'Final Balance: ${balance:.2f}')
 
     return balance
 
@@ -99,9 +99,9 @@ amd_balance = run_strategy(Amd, 'AMD')
 
 
 
-print(f'==============================')
+
 print('Strategy Comparison')
-print("==============================")
+
 print(f'NVIDIA Final Balance : ${nvda_balance:.2f}')
 print(f'AMD Final Balance    : ${amd_balance:.2f}')
 
